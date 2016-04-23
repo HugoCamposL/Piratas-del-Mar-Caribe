@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D0C062B1CB5AD7600E90FB9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0C062A1CB5AD7600E90FB9 /* main.m */; };
+		8D0C062E1CB5AD7600E90FB9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0C062D1CB5AD7600E90FB9 /* AppDelegate.m */; };
+		8D0C06311CB5AD7600E90FB9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0C06301CB5AD7600E90FB9 /* ViewController.m */; };
+		8D0C06341CB5AD7600E90FB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D0C06321CB5AD7600E90FB9 /* Main.storyboard */; };
+		8D0C06361CB5AD7600E90FB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D0C06351CB5AD7600E90FB9 /* Assets.xcassets */; };
+		8D0C06391CB5AD7600E90FB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D0C06371CB5AD7600E90FB9 /* LaunchScreen.storyboard */; };
+		8D0C06441CB5AD7600E90FB9 /* PiratasDelMarCaribeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0C06431CB5AD7600E90FB9 /* PiratasDelMarCaribeTests.m */; };
+		8D0C064F1CB5AD7600E90FB9 /* PiratasDelMarCaribeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0C064E1CB5AD7600E90FB9 /* PiratasDelMarCaribeUITests.m */; };
+		8D4F1F7F1CBF5FBC00E2E70D /* weapon.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4F1F7E1CBF5FBC00E2E70D /* weapon.m */; };
+		8D4F1F851CBF60C600E2E70D /* armor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4F1F841CBF60C600E2E70D /* armor.m */; };
+		8D4F1F881CBF613E00E2E70D /* Character.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4F1F871CBF613E00E2E70D /* Character.m */; };
+		8DAD5C1D1CB75E8500BECD4E /* Tile.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DAD5C1C1CB75E8500BECD4E /* Tile.m */; };
+		8DAD5C201CB7604900BECD4E /* TileFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DAD5C1F1CB7604900BECD4E /* TileFactory.m */; };
+		8DFE9FC11CC855DE00A946F1 /* Boss.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DFE9FC01CC855DE00A946F1 /* Boss.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8D0C06401CB5AD7600E90FB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D0C061E1CB5AD7500E90FB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D0C06251CB5AD7500E90FB9;
+			remoteInfo = PiratasDelMarCaribe;
+		};
+		8D0C064B1CB5AD7600E90FB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D0C061E1CB5AD7500E90FB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D0C06251CB5AD7500E90FB9;
+			remoteInfo = PiratasDelMarCaribe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8D0C06261CB5AD7500E90FB9 /* PiratasDelMarCaribe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PiratasDelMarCaribe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D0C062A1CB5AD7600E90FB9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D0C062C1CB5AD7600E90FB9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = PiratasDelMarCaribe/AppDelegate.h; sourceTree = "<group>"; };
+		8D0C062D1CB5AD7600E90FB9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = PiratasDelMarCaribe/AppDelegate.m; sourceTree = "<group>"; };
+		8D0C062F1CB5AD7600E90FB9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8D0C06301CB5AD7600E90FB9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8D0C06331CB5AD7600E90FB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8D0C06351CB5AD7600E90FB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8D0C06381CB5AD7600E90FB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8D0C063A1CB5AD7600E90FB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D0C063F1CB5AD7600E90FB9 /* PiratasDelMarCaribeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PiratasDelMarCaribeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D0C06431CB5AD7600E90FB9 /* PiratasDelMarCaribeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PiratasDelMarCaribeTests.m; sourceTree = "<group>"; };
+		8D0C06451CB5AD7600E90FB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D0C064A1CB5AD7600E90FB9 /* PiratasDelMarCaribeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PiratasDelMarCaribeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D0C064E1CB5AD7600E90FB9 /* PiratasDelMarCaribeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PiratasDelMarCaribeUITests.m; sourceTree = "<group>"; };
+		8D0C06501CB5AD7600E90FB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D4F1F7D1CBF5FBC00E2E70D /* weapon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = weapon.h; sourceTree = "<group>"; };
+		8D4F1F7E1CBF5FBC00E2E70D /* weapon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = weapon.m; sourceTree = "<group>"; };
+		8D4F1F831CBF60C600E2E70D /* armor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = armor.h; sourceTree = "<group>"; };
+		8D4F1F841CBF60C600E2E70D /* armor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = armor.m; sourceTree = "<group>"; };
+		8D4F1F861CBF613E00E2E70D /* Character.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Character.h; sourceTree = "<group>"; };
+		8D4F1F871CBF613E00E2E70D /* Character.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Character.m; sourceTree = "<group>"; };
+		8DAD5C1B1CB75E8500BECD4E /* Tile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tile.h; sourceTree = "<group>"; };
+		8DAD5C1C1CB75E8500BECD4E /* Tile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tile.m; sourceTree = "<group>"; };
+		8DAD5C1E1CB7604900BECD4E /* TileFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TileFactory.h; sourceTree = "<group>"; };
+		8DAD5C1F1CB7604900BECD4E /* TileFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TileFactory.m; sourceTree = "<group>"; };
+		8DFE9FBF1CC855DE00A946F1 /* Boss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Boss.h; sourceTree = "<group>"; };
+		8DFE9FC01CC855DE00A946F1 /* Boss.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Boss.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D0C06231CB5AD7500E90FB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D0C063C1CB5AD7600E90FB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D0C06471CB5AD7600E90FB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D0C061D1CB5AD7500E90FB9 = {
+			isa = PBXGroup;
+			children = (
+				8D0C062C1CB5AD7600E90FB9 /* AppDelegate.h */,
+				8D0C062D1CB5AD7600E90FB9 /* AppDelegate.m */,
+				8D0C06281CB5AD7500E90FB9 /* PiratasDelMarCaribe */,
+				8D0C06421CB5AD7600E90FB9 /* PiratasDelMarCaribeTests */,
+				8D0C064D1CB5AD7600E90FB9 /* PiratasDelMarCaribeUITests */,
+				8D0C06271CB5AD7500E90FB9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8D0C06271CB5AD7500E90FB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D0C06261CB5AD7500E90FB9 /* PiratasDelMarCaribe.app */,
+				8D0C063F1CB5AD7600E90FB9 /* PiratasDelMarCaribeTests.xctest */,
+				8D0C064A1CB5AD7600E90FB9 /* PiratasDelMarCaribeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D0C06281CB5AD7500E90FB9 /* PiratasDelMarCaribe */ = {
+			isa = PBXGroup;
+			children = (
+				8D4F1F801CBF5FD400E2E70D /* Model */,
+				8D4F1F811CBF5FE900E2E70D /* Controller */,
+				8D4F1F821CBF600B00E2E70D /* View */,
+				8D0C063A1CB5AD7600E90FB9 /* Info.plist */,
+				8D0C06291CB5AD7600E90FB9 /* Supporting Files */,
+			);
+			path = PiratasDelMarCaribe;
+			sourceTree = "<group>";
+		};
+		8D0C06291CB5AD7600E90FB9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D0C062A1CB5AD7600E90FB9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8D0C06421CB5AD7600E90FB9 /* PiratasDelMarCaribeTests */ = {
+			isa = PBXGroup;
+			children = (
+				8D0C06431CB5AD7600E90FB9 /* PiratasDelMarCaribeTests.m */,
+				8D0C06451CB5AD7600E90FB9 /* Info.plist */,
+			);
+			path = PiratasDelMarCaribeTests;
+			sourceTree = "<group>";
+		};
+		8D0C064D1CB5AD7600E90FB9 /* PiratasDelMarCaribeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8D0C064E1CB5AD7600E90FB9 /* PiratasDelMarCaribeUITests.m */,
+				8D0C06501CB5AD7600E90FB9 /* Info.plist */,
+			);
+			path = PiratasDelMarCaribeUITests;
+			sourceTree = "<group>";
+		};
+		8D4F1F801CBF5FD400E2E70D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8DAD5C1B1CB75E8500BECD4E /* Tile.h */,
+				8DAD5C1C1CB75E8500BECD4E /* Tile.m */,
+				8DAD5C1E1CB7604900BECD4E /* TileFactory.h */,
+				8DAD5C1F1CB7604900BECD4E /* TileFactory.m */,
+				8DFE9FBF1CC855DE00A946F1 /* Boss.h */,
+				8DFE9FC01CC855DE00A946F1 /* Boss.m */,
+				8D4F1F861CBF613E00E2E70D /* Character.h */,
+				8D4F1F871CBF613E00E2E70D /* Character.m */,
+				8D4F1F831CBF60C600E2E70D /* armor.h */,
+				8D4F1F841CBF60C600E2E70D /* armor.m */,
+				8D4F1F7D1CBF5FBC00E2E70D /* weapon.h */,
+				8D4F1F7E1CBF5FBC00E2E70D /* weapon.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		8D4F1F811CBF5FE900E2E70D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8D0C062F1CB5AD7600E90FB9 /* ViewController.h */,
+				8D0C06301CB5AD7600E90FB9 /* ViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		8D4F1F821CBF600B00E2E70D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8D0C06321CB5AD7600E90FB9 /* Main.storyboard */,
+				8D0C06351CB5AD7600E90FB9 /* Assets.xcassets */,
+				8D0C06371CB5AD7600E90FB9 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D0C06251CB5AD7500E90FB9 /* PiratasDelMarCaribe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D0C06531CB5AD7600E90FB9 /* Build configuration list for PBXNativeTarget "PiratasDelMarCaribe" */;
+			buildPhases = (
+				8D0C06221CB5AD7500E90FB9 /* Sources */,
+				8D0C06231CB5AD7500E90FB9 /* Frameworks */,
+				8D0C06241CB5AD7500E90FB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PiratasDelMarCaribe;
+			productName = PiratasDelMarCaribe;
+			productReference = 8D0C06261CB5AD7500E90FB9 /* PiratasDelMarCaribe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8D0C063E1CB5AD7600E90FB9 /* PiratasDelMarCaribeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D0C06561CB5AD7600E90FB9 /* Build configuration list for PBXNativeTarget "PiratasDelMarCaribeTests" */;
+			buildPhases = (
+				8D0C063B1CB5AD7600E90FB9 /* Sources */,
+				8D0C063C1CB5AD7600E90FB9 /* Frameworks */,
+				8D0C063D1CB5AD7600E90FB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D0C06411CB5AD7600E90FB9 /* PBXTargetDependency */,
+			);
+			name = PiratasDelMarCaribeTests;
+			productName = PiratasDelMarCaribeTests;
+			productReference = 8D0C063F1CB5AD7600E90FB9 /* PiratasDelMarCaribeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8D0C06491CB5AD7600E90FB9 /* PiratasDelMarCaribeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D0C06591CB5AD7600E90FB9 /* Build configuration list for PBXNativeTarget "PiratasDelMarCaribeUITests" */;
+			buildPhases = (
+				8D0C06461CB5AD7600E90FB9 /* Sources */,
+				8D0C06471CB5AD7600E90FB9 /* Frameworks */,
+				8D0C06481CB5AD7600E90FB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D0C064C1CB5AD7600E90FB9 /* PBXTargetDependency */,
+			);
+			name = PiratasDelMarCaribeUITests;
+			productName = PiratasDelMarCaribeUITests;
+			productReference = 8D0C064A1CB5AD7600E90FB9 /* PiratasDelMarCaribeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D0C061E1CB5AD7500E90FB9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Hugo Antonio Campos Lopez";
+				TargetAttributes = {
+					8D0C06251CB5AD7500E90FB9 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					8D0C063E1CB5AD7600E90FB9 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 8D0C06251CB5AD7500E90FB9;
+					};
+					8D0C06491CB5AD7600E90FB9 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 8D0C06251CB5AD7500E90FB9;
+					};
+				};
+			};
+			buildConfigurationList = 8D0C06211CB5AD7500E90FB9 /* Build configuration list for PBXProject "PiratasDelMarCaribe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D0C061D1CB5AD7500E90FB9;
+			productRefGroup = 8D0C06271CB5AD7500E90FB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D0C06251CB5AD7500E90FB9 /* PiratasDelMarCaribe */,
+				8D0C063E1CB5AD7600E90FB9 /* PiratasDelMarCaribeTests */,
+				8D0C06491CB5AD7600E90FB9 /* PiratasDelMarCaribeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D0C06241CB5AD7500E90FB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D0C06391CB5AD7600E90FB9 /* LaunchScreen.storyboard in Resources */,
+				8D0C06361CB5AD7600E90FB9 /* Assets.xcassets in Resources */,
+				8D0C06341CB5AD7600E90FB9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D0C063D1CB5AD7600E90FB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D0C06481CB5AD7600E90FB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D0C06221CB5AD7500E90FB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D0C06311CB5AD7600E90FB9 /* ViewController.m in Sources */,
+				8D0C062E1CB5AD7600E90FB9 /* AppDelegate.m in Sources */,
+				8D0C062B1CB5AD7600E90FB9 /* main.m in Sources */,
+				8D4F1F881CBF613E00E2E70D /* Character.m in Sources */,
+				8DAD5C1D1CB75E8500BECD4E /* Tile.m in Sources */,
+				8DAD5C201CB7604900BECD4E /* TileFactory.m in Sources */,
+				8DFE9FC11CC855DE00A946F1 /* Boss.m in Sources */,
+				8D4F1F851CBF60C600E2E70D /* armor.m in Sources */,
+				8D4F1F7F1CBF5FBC00E2E70D /* weapon.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D0C063B1CB5AD7600E90FB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D0C06441CB5AD7600E90FB9 /* PiratasDelMarCaribeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D0C06461CB5AD7600E90FB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D0C064F1CB5AD7600E90FB9 /* PiratasDelMarCaribeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8D0C06411CB5AD7600E90FB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D0C06251CB5AD7500E90FB9 /* PiratasDelMarCaribe */;
+			targetProxy = 8D0C06401CB5AD7600E90FB9 /* PBXContainerItemProxy */;
+		};
+		8D0C064C1CB5AD7600E90FB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D0C06251CB5AD7500E90FB9 /* PiratasDelMarCaribe */;
+			targetProxy = 8D0C064B1CB5AD7600E90FB9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8D0C06321CB5AD7600E90FB9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D0C06331CB5AD7600E90FB9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8D0C06371CB5AD7600E90FB9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D0C06381CB5AD7600E90FB9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8D0C06511CB5AD7600E90FB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8D0C06521CB5AD7600E90FB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D0C06541CB5AD7600E90FB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PiratasDelMarCaribe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hugoantonio.PiratasDelMarCaribe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8D0C06551CB5AD7600E90FB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PiratasDelMarCaribe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hugoantonio.PiratasDelMarCaribe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8D0C06571CB5AD7600E90FB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PiratasDelMarCaribeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hugoantonio.PiratasDelMarCaribeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PiratasDelMarCaribe.app/PiratasDelMarCaribe";
+			};
+			name = Debug;
+		};
+		8D0C06581CB5AD7600E90FB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PiratasDelMarCaribeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hugoantonio.PiratasDelMarCaribeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PiratasDelMarCaribe.app/PiratasDelMarCaribe";
+			};
+			name = Release;
+		};
+		8D0C065A1CB5AD7600E90FB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PiratasDelMarCaribeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hugoantonio.PiratasDelMarCaribeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PiratasDelMarCaribe;
+			};
+			name = Debug;
+		};
+		8D0C065B1CB5AD7600E90FB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PiratasDelMarCaribeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hugoantonio.PiratasDelMarCaribeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PiratasDelMarCaribe;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D0C06211CB5AD7500E90FB9 /* Build configuration list for PBXProject "PiratasDelMarCaribe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D0C06511CB5AD7600E90FB9 /* Debug */,
+				8D0C06521CB5AD7600E90FB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D0C06531CB5AD7600E90FB9 /* Build configuration list for PBXNativeTarget "PiratasDelMarCaribe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D0C06541CB5AD7600E90FB9 /* Debug */,
+				8D0C06551CB5AD7600E90FB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D0C06561CB5AD7600E90FB9 /* Build configuration list for PBXNativeTarget "PiratasDelMarCaribeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D0C06571CB5AD7600E90FB9 /* Debug */,
+				8D0C06581CB5AD7600E90FB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D0C06591CB5AD7600E90FB9 /* Build configuration list for PBXNativeTarget "PiratasDelMarCaribeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D0C065A1CB5AD7600E90FB9 /* Debug */,
+				8D0C065B1CB5AD7600E90FB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D0C061E1CB5AD7500E90FB9 /* Project object */;
+}
